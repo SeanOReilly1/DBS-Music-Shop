@@ -1,0 +1,33 @@
+﻿@model MusicShop.Models.Admin
+@{
+    ViewBag.Title = "AddAdmin";
+}
+
+@section logged{
+    @if (Session == null || Session["userType"] == null || Session["userType"].ToString() != "staff")
+    {
+        Response.Redirect(Url.Action("Login", "Admin"));
+    }
+}
+
+
+<h2>Add Administrator</h2>
+
+<h3>@ViewBag.Message</h3>
+
+
+@using (Html.BeginForm("AddAdmin", "Admin", FormMethod.Post, new { id = "frmAddStaff"}))
+{
+    <div id="divLoginForm">
+        <p>
+            @Html.LabelFor(a => a.Email)
+            @Html.TextBoxFor(a => a.Email, new { id = "StaffEmail"})
+            @Html.LabelFor(a => a.Password)<br />
+            @Html.TextBoxFor(a => a.Password, new { id = "StaffPass", type = "password" })<br />
+            
+        </p>
+        <input type="submit" value="Add New Staff" />
+    </div>
+}
+
+

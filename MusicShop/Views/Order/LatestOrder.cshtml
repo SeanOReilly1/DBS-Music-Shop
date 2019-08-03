@@ -1,0 +1,44 @@
+﻿@model MusicShop.Models.Order
+
+@{
+                /**/
+
+                ViewBag.Title = "LatestOrder";
+}
+
+<h2>LatestOrder</h2>
+
+
+<br />
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Ammount</th>
+            <th>Price</th>
+            <th>Item Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @{
+            var total = 0.0;
+            foreach (var item in Model.OrderItems)
+            {
+                var linePrice = 0.0;
+                linePrice = (double)item.Price * (double)item.Quantity;
+                total = total + linePrice;
+                <tr>
+                    <td>@item.ItemOrdered.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price</td>
+                    <td>@linePrice</td>
+                </tr>
+            }
+        }
+        
+    </tbody>
+</table>
+
+@{<h4>Your Order Total is  €@total <br/> An email has been sent to you confirming your order details</h4> }
+

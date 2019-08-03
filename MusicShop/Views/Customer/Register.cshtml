@@ -1,0 +1,62 @@
+﻿@model MusicShop.Models.Customer
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+
+<h2>Already a member? Click here to @Html.ActionLink("Sign-In", "SignIn", "Customer")</h2>
+
+<hr />
+<br />
+<h2>OR</h2>
+
+
+<div id="divLoginForm">
+    <h2>Please fill in all fields to register</h2>
+
+    <h3>@ViewBag.Status</h3>
+
+    @using (Html.BeginForm("Register", "Customer", FormMethod.Post, new { id = "frmRegisterCustomer" }))
+    {
+        <p>
+            @Html.LabelFor(c => c.Name, "Name:") <span class="spnRequired" style="color: red">* Required</span>
+            @Html.TextBoxFor(c => c.Name)
+        </p>
+        <p>
+            @Html.LabelFor(c => c.Email, "Email Address:") <span class="spnRequired" style="color: red">* Required</span>
+            @Html.TextBoxFor(c => c.Email, new { type = "email" })
+        </p>
+        <p>
+            @Html.LabelFor(c => c.Phone, "Phone Number:")
+            @Html.TextBoxFor(c => c.Phone)
+        </p>
+        <p>
+            @Html.LabelFor(c => c.AddressLine1, "Address Line 1:") <span class="spnRequired" style="color: red">* Required</span>
+            @Html.TextBoxFor(c => c.AddressLine1)
+        </p>
+        <p>
+            @Html.LabelFor(c => c.AddressLine2, "Address Line 2:")
+            @Html.TextBoxFor(c => c.AddressLine2)
+        </p>
+        <p>
+            @Html.LabelFor(c => c.City, "City:")
+            @Html.TextBoxFor(c => c.City)
+        </p>
+        <p>
+            @Html.LabelFor(c => c.Country, "Country:") <span class="spnRequired" style="color: red">* Required</span>
+            @Html.TextBoxFor(c => c.Country)
+        </p>
+        <p>
+            @Html.LabelFor(c => c.Password, "Password:") <span class="spnRequired" style="color: red">* Required</span>
+            @Html.TextBoxFor(c => c.Password, new { type = "password", id = "txtPassword" })
+        </p>
+        
+            <input type="submit" value="Submit">
+            <br />
+            }
+
+
+    </div>

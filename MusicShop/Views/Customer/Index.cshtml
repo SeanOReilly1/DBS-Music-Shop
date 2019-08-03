@@ -1,0 +1,91 @@
+﻿@model MusicShop.Models.Customer
+
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Customer Details</h2>
+@if (Session != null && Session["userType"] != null && Session["userType"].ToString() == "customer")
+{
+<div id="divCustomerDetails">
+    <table>
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Customer Address</th>
+                <th>Email Address</th>
+                <th>Date Registered</th>
+                <th>Phone Number</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+
+
+
+            <tr>
+                <td>@Model.Name</td>
+                <td>@Model.AddressLine1, @Model.AddressLine2, @Model.City, @Model.Country</td>
+                <td>@Model.Email</td>
+                <td>@Model.DateRegistered.Date</td>
+                <td>@Model.Phone</td>
+
+
+            </tr>
+
+
+
+        </tbody>
+    </table>
+    <hr />
+    @Html.ActionLink("Change Password", "EditPassword")
+</div>
+}
+else
+{
+
+
+    <p>Not logged in.</p>
+
+    
+
+    <div id="divCustomerDetails">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Sign</th>
+                    <th>Register</th>
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+
+
+                <tr>
+                    <td>@Html.ActionLink("Sign-In", "SignIn", "Customer")</td>
+                    <td>@Html.ActionLink("Register", "Register", "Customer")</td>
+
+
+
+
+                </tr>
+
+
+
+            </tbody>
+        </table>
+
+    </div>
+        }
+
+
+
+

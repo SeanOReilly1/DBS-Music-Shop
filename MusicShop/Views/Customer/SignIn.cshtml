@@ -1,0 +1,27 @@
+﻿@model MusicShop.Models.Customer
+
+@{
+    ViewBag.Title = "SignIn";
+}
+
+<div id="divLoginForm">
+   
+
+    @using (Html.BeginForm("SignIn", "Customer", FormMethod.Post))
+    {
+
+        <h2>Sign In</h2>
+        <h3>@ViewBag.Status</h3>
+        <h3>@Html.ValidationSummary()</h3>
+
+        @Html.LabelFor(c => c.Email, "Email Address")
+        @Html.TextBoxFor(c => c.Email, new { type = "email" })
+
+        @Html.LabelFor(c => c.Password, "Password")
+        @Html.TextBoxFor(c => c.Password, new { type = "password" })
+
+        <input type="submit" value="Submit">
+        
+
+    }
+</div>

@@ -1,0 +1,82 @@
+﻿@model IEnumerable<MusicShop.Models.Guitar>
+
+
+@{
+    ViewBag.Title = "Amps";
+}
+
+
+@if (Session["userType"] != null && Session["userType"].ToString() == "staff")
+{
+    <h3>@Html.ActionLink("Add an Image", "AddImage")</h3>
+    <h3>@Html.ActionLink("Add a Amp", "Add")</h3>
+}
+    <h4>
+        @using (Html.BeginForm("Search", "Guitar", FormMethod.Get))
+        {
+
+        <p>
+            Marshall  @Html.RadioButton("search", "Marshall")
+            Roland  @Html.RadioButton("search", "Roland")
+            Vox  @Html.RadioButton("search", "Vox")
+            <input id="Submit1" type="submit" value="submit" />
+        </p>
+        }
+    </h4>
+
+
+
+    @foreach (var guitar in Model)
+    {
+        if (guitar.ItemType == "Amp")
+        {
+            <div class="singleItemDisp">
+                <div class="singleItemDetails">
+                    <a href="~/Guitar/Single/@guitar.ID">
+                        <img class="listPoster" alt="Item Poster - @guitar.Name"
+                             src="@Url.Content(guitar.Image)" />
+                        <h2> <span class="itemListTitle">@guitar.Name</span> </h2>
+
+                    </a>
+
+                    <form id="frmAddItemToCart">
+                        @Html.Label("lblAmmount" + guitar.ID, "Ammount:")
+                        @Html.TextBox("txtAmmount" + guitar.ID, "1", new { @class = "textbox", type = "number" })
+                        <input id="add_@guitar.ID" type="button" onclick='addToCart("@guitar.ID")' value="Add to Cart" />
+                    </form>
+                    <span class="price">€@guitar.Price</span>
+                    @if (guitar.Stock > 0)
+                    {
+                        <span class="haveStock">
+                            In Stock
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="noStock">
+                            Out of Stock
+                        </span>
+                    }
+                </div>
+                @if (Session["userType"] != null && Session["userType"].ToString() == "staff")
+                {
+                    <div class="AdminRights">
+                        @using (Html.BeginForm("Delete", "Guitar", new { ID = guitar.ID }))
+                        {
+                            <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete this record?')" />
+                        }
+                        @using (Html.BeginForm("Edit", "Guitar", new { ID = guitar.ID }, FormMethod.Get))
+                        {
+                            <input type="submit" value="Edit" />
+                        }
+                    </div>
+                }
+            </div>
+
+
+
+        }
+
+
+    }
+    <div class="clear"></div>

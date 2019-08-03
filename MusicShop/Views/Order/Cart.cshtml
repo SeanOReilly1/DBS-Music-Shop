@@ -1,0 +1,111 @@
+﻿@model IEnumerable<MusicShop.Models.Guitar>
+
+@{
+                /**/
+
+                ViewBag.Title = "Cart";
+}
+
+<h2>Cart</h2>
+
+@if (Request.Cookies["cart"] != null)
+{
+
+
+    <div id="shoppingCart"></div>
+
+
+    <script>
+        function updateItem(id) {
+            var qty = parseInt($("#txtAmmount" + id).val());
+            if (qty < 0) {
+                alert("You cannot enter a quantity less than 0");
+            }
+            else if (qty === 0) {
+                removeFromCart(id);
+            }
+            else {
+                updateItemInCart(id, qty);
+            }
+            location.reload(true);
+        }
+
+        function removeItem(id) {
+            removeFromCart(id);
+            location.reload(true);
+        }
+
+
+        var cookie = getCookie("cart").split(':');
+        console.log(cookie);
+        var totalPrice = 0.0;
+        var addedToCart = "";
+            for (i = 0; i < cookie.length; i++) {
+                
+
+            @foreach (var guitar in Model)
+            {
+                <text>
+                    if (cookie[i].split('_')[0] === "@guitar.ID")
+                    {
+                        var quantity = parseInt(cookie[i].split('_')[1]);
+                        addedToCart += '<div class="cartItem">'
+                        
+                        addedToCart += '<table><thead><tr><th>Order Item</th><th>Name</th><th>Price</th></tr></thead><tbody>';
+                        addedToCart += '<tr><td><img class="left cartPoster" src="@Url.Content(guitar.Image)"</td><td>@guitar.Name</td><td>@guitar.Price</td></tr></tbody></table>';
+
+                        addedToCart += '<input type="number" value="' + quantity + '" id="txtAmmount' + '@guitar.ID"/>';
+                        addedToCart += "<input id=\"btnUpdate\" type=\"button\" onclick=\"updateItem('@guitar.ID')\" value=\"Update Quantity\" />"
+                        addedToCart += "<input id=\"btnRemove\" type=\"button\" onclick=\"removeItem('@guitar.ID')\" value=\"Remove from Cart\" />"
+
+                        addedToCart += "<br />";
+
+                        addedToCart += 'Item Subtotal: €' + (+(@guitar.Price * quantity).toFixed(2));
+
+                        addedToCart += '</div>'
+
+                        var itemPrice = parseFloat(cookie[i].split('_')[1]) * @guitar.Price;
+                        totalPrice = totalPrice + itemPrice;
+
+                       
+                        
+                        
+                        
+                        
+                        
+                    }
+                </text>
+
+
+            }
+        }
+
+        addedToCart += '<h2 class="center";>Total Price: €' + totalPrice + '</h2>';
+        addedToCart += '<br />'
+        addedToCart += '<input id="btnEmpty" type="button" onclick="emptyCart();location.reload(true)" value="Empty Cart" />';
+        @if (Session != null && Session["userType"] != null && Session["userType"].ToString() == "customer")
+        {
+            <text>
+        addedToCart += '<form id="frmSubmitOrder" action="/Order/Cart/" method="POST">';
+        addedToCart += '<input id="cartContents" name="cartContents" type="hidden" value="' + getCookie("cart") + '" />';
+        addedToCart += '<input id="btnSubmitOrder" type="Submit"  value="Submit Order" /></form>';
+            </text>
+        }
+        else
+        {
+            <text>
+        addedToCart += '<a href="~/Customer/SignIn">Sign in to Place Order</a>';
+            </text>
+        }
+        $("#shoppingCart").html(addedToCart);
+            
+
+    </script>
+
+
+
+        }
+        else
+        {
+        <h3> Cart is empty</h3>
+        }

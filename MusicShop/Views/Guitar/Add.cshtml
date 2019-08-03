@@ -1,0 +1,60 @@
+﻿@model MusicShop.Models.Guitar
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add Item</h2>
+
+<div id="frmSubmitToBackend">
+    <h3>Item Details for entry into database</h3>
+    @using (Html.BeginForm("Add", "Guitar", FormMethod.Post, new { id = "frmAddItem" }))
+    {
+
+        <p>
+          
+            @Html.LabelFor(g => g.Name)
+            @Html.TextBoxFor(g => g.Name, new { id = "txtItemName" })
+        </p>
+
+        <p>
+           
+            @Html.LabelFor(g => g.Image)
+            @Html.TextBoxFor(g => g.Image, new { id = "txtItemImage", @Value = "~/Content/Images/" })
+        </p>
+
+        <p>
+           
+            @Html.LabelFor(g => g.Price)
+            @Html.TextBoxFor(g => g.Price, new { id = "txtItemPrice", type = "number", step = "0.01" })
+        </p>
+        <p>
+           
+            @Html.LabelFor(g => g.Stock)
+            @Html.TextBoxFor(g => g.Stock, new { id = "txtItemStock", type = "number" })
+        </p>
+
+        <p>
+          
+            @Html.LabelFor(g => g.ItemType)
+            Guitar: @Html.RadioButton("ItemType", "Guitar")
+            Amp: @Html.RadioButton("ItemType", "Amp")
+        </p>
+
+        <p>
+
+            @Html.LabelFor(g => g.Brand)
+            Fender: @Html.RadioButton("Brand", "Fender")
+            Gibson: @Html.RadioButton("Brand", "Gibson")
+            Squire: @Html.RadioButton("Brand", "Squire")<br />
+            Roland: @Html.RadioButton("Brand", "Roland")
+            Marshall: @Html.RadioButton("Brand", "Marshall")
+            Vox: @Html.RadioButton("Brand", "Vox")
+        </p>
+
+        <p>
+            <input id="Submit1" type="submit" value="submit" />
+            <input id="Reset1" type="reset" value="reset" />
+        </p>
+    }
+</div>
+

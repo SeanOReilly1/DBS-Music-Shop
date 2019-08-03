@@ -1,0 +1,267 @@
+C:\projectca\MusicShop\MusicShop\bin\MusicShop.dll.config
+C:\projectca\MusicShop\MusicShop\bin\MusicShop.dll
+C:\projectca\MusicShop\MusicShop\bin\MusicShop.pdb
+C:\projectca\MusicShop\MusicShop\bin\roslyn\csc.exe
+C:\projectca\MusicShop\MusicShop\bin\roslyn\csc.exe.config
+C:\projectca\MusicShop\MusicShop\bin\roslyn\csc.rsp
+C:\projectca\MusicShop\MusicShop\bin\roslyn\csi.exe
+C:\projectca\MusicShop\MusicShop\bin\roslyn\csi.exe.config
+C:\projectca\MusicShop\MusicShop\bin\roslyn\csi.rsp
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\projectca\MusicShop\MusicShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.AppContext.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Collections.Immutable.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Console.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.IO.Compression.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.IO.FileSystem.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.IO.Pipes.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Security.AccessControl.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Security.Claims.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Security.Principal.Windows.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.ValueTuple.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Xml.XPath.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\projectca\MusicShop\MusicShop\bin\roslyn\vbc.exe
+C:\projectca\MusicShop\MusicShop\bin\roslyn\vbc.exe.config
+C:\projectca\MusicShop\MusicShop\bin\roslyn\vbc.rsp
+C:\projectca\MusicShop\MusicShop\bin\roslyn\VBCSCompiler.exe
+C:\projectca\MusicShop\MusicShop\bin\roslyn\VBCSCompiler.exe.config
+C:\projectca\MusicShop\MusicShop\bin\Antlr3.Runtime.dll
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.Web.Infrastructure.dll
+C:\projectca\MusicShop\MusicShop\bin\Newtonsoft.Json.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Diagnostics.DiagnosticSource.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Helpers.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Mvc.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Optimization.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Razor.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.WebPages.Deployment.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.WebPages.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.WebPages.Razor.dll
+C:\projectca\MusicShop\MusicShop\bin\WebGrease.dll
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Helpers.xml
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Mvc.xml
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Optimization.xml
+C:\projectca\MusicShop\MusicShop\bin\System.Web.Razor.xml
+C:\projectca\MusicShop\MusicShop\bin\System.Web.WebPages.xml
+C:\projectca\MusicShop\MusicShop\bin\System.Web.WebPages.Deployment.xml
+C:\projectca\MusicShop\MusicShop\bin\System.Web.WebPages.Razor.xml
+C:\projectca\MusicShop\MusicShop\bin\Newtonsoft.Json.xml
+C:\projectca\MusicShop\MusicShop\bin\Antlr3.Runtime.pdb
+C:\projectca\MusicShop\MusicShop\bin\System.Diagnostics.DiagnosticSource.xml
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\projectca\MusicShop\MusicShop\obj\Debug\MusicShop.csprojAssemblyReference.cache
+C:\projectca\MusicShop\MusicShop\obj\Debug\MusicShop.csproj.CoreCompileInputs.cache
+C:\projectca\MusicShop\MusicShop\obj\Debug\MusicShop.csproj.CopyComplete
+C:\projectca\MusicShop\MusicShop\obj\Debug\MusicShop.dll
+C:\projectca\MusicShop\MusicShop\obj\Debug\MusicShop.pdb
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.IdentityModel.Logging.dll
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.IdentityModel.Tokens.dll
+C:\projectca\MusicShop\MusicShop\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\projectca\MusicShop\MusicShop\bin\Twilio.dll
+C:\projectca\MusicShop\MusicShop\bin\Microsoft.IdentityModel.Tokens.xml
+C:\projectca\MusicShop\MusicShop\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\projectca\MusicShop\MusicShop\bin\Twilio.xml
+C:\projectca\MusicShop\MusicShop\bin\Twilio.AspNet.Common.dll
+C:\projectca\MusicShop\MusicShop\bin\Twilio.AspNet.Mvc.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\MusicShop.dll.config
+C:\Project Git\DBS_Project-\MusicShop\bin\MusicShop.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\MusicShop.pdb
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\csc.exe
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\csc.exe.config
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\csc.rsp
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\csi.exe
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\csi.exe.config
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\csi.rsp
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.AppContext.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Console.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.IO.Compression.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.IO.Pipes.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Security.AccessControl.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Security.Claims.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.ValueTuple.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Xml.XPath.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\vbc.exe
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\vbc.exe.config
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\vbc.rsp
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\VBCSCompiler.exe
+C:\Project Git\DBS_Project-\MusicShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Project Git\DBS_Project-\MusicShop\bin\Antlr3.Runtime.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.IdentityModel.Logging.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Newtonsoft.Json.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Helpers.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Mvc.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Optimization.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Razor.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.WebPages.Deployment.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.WebPages.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.WebPages.Razor.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Twilio.AspNet.Common.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Twilio.AspNet.Mvc.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Twilio.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\WebGrease.dll
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Helpers.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Mvc.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Optimization.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.Razor.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.WebPages.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.WebPages.Deployment.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Web.WebPages.Razor.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\Newtonsoft.Json.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\Twilio.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\Antlr3.Runtime.pdb
+C:\Project Git\DBS_Project-\MusicShop\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Project Git\DBS_Project-\MusicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project Git\DBS_Project-\MusicShop\obj\Debug\MusicShop.csprojAssemblyReference.cache
+C:\Project Git\DBS_Project-\MusicShop\obj\Debug\MusicShop.csproj.CoreCompileInputs.cache
+C:\Project Git\DBS_Project-\MusicShop\obj\Debug\MusicShop.csproj.CopyComplete
+C:\Project Git\DBS_Project-\MusicShop\obj\Debug\MusicShop.dll
+C:\Project Git\DBS_Project-\MusicShop\obj\Debug\MusicShop.pdb
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\MusicShop.dll.config
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\MusicShop.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\MusicShop.pdb
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\csc.exe
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\csc.exe.config
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\csc.rsp
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\csi.exe
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\csi.exe.config
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\csi.rsp
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.AppContext.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Console.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.IO.Compression.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.IO.Pipes.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Security.AccessControl.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Security.Claims.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.ValueTuple.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Xml.XPath.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\vbc.exe
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\vbc.exe.config
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\vbc.rsp
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\VBCSCompiler.exe
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Antlr3.Runtime.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.IdentityModel.Logging.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Newtonsoft.Json.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Helpers.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Mvc.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Optimization.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Razor.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.WebPages.Deployment.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.WebPages.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.WebPages.Razor.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Twilio.AspNet.Common.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Twilio.AspNet.Mvc.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Twilio.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\WebGrease.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Helpers.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Mvc.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Optimization.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.Razor.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.WebPages.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.WebPages.Deployment.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Web.WebPages.Razor.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Newtonsoft.Json.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Twilio.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Antlr3.Runtime.pdb
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Final Attempt\DBS-Music-Shop\MusicShop\obj\Debug\MusicShop.csprojAssemblyReference.cache
+C:\Final Attempt\DBS-Music-Shop\MusicShop\obj\Debug\MusicShop.csproj.CoreCompileInputs.cache
+C:\Final Attempt\DBS-Music-Shop\MusicShop\obj\Debug\MusicShop.csproj.CopyComplete
+C:\Final Attempt\DBS-Music-Shop\MusicShop\obj\Debug\MusicShop.dll
+C:\Final Attempt\DBS-Music-Shop\MusicShop\obj\Debug\MusicShop.pdb

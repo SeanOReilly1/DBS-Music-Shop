@@ -1,0 +1,40 @@
+DROP TABLE OrderItem
+DROP TABLE Orders
+DROP TABLE Guitars
+DROP TABLE Customers
+DROP TABLE Staff
+
+DROP PROCEDURE uspCreateGuitarTable
+DROP PROCEDURE uspCreateCustomersTable
+DROP PROCEDURE uspCreateStaffTable
+DROP PROCEDURE uspCreateOrdersTable
+DROP PROCEDURE uspCreateOrderItemTable
+
+DROP PROCEDURE uspInsertGuitar
+DROP PROCEDURE uspShowAllGuitars
+DROP PROCEDURE uspShowoneGuitar
+DROP PROCEDURE uspDeleteGuitar
+DROP PROCEDURE uspEditGuitar
+
+DROP PROCEDURE uspInserttblCustomer
+DROP PROCEDURE uspShowAllCustomers
+DROP PROCEDURE uspShowOneCustomer
+DROP PROCEDURE uspDeleteCustomer
+DROP PROCEDURE uspUpdateCustomer
+
+DROP PROCEDURE uspInserttblStaff
+DROP PROCEDURE uspSelectAllStaff
+DROP PROCEDURE uspSelectOneStaff
+DROP PROCEDURE uspDeleteOneStaff
+DROP PROCEDURE uspUpdateStaff
+
+DROP PROCEDURE uspCurrentOrder
+
+DROP PROCEDURE uspInsertOrder
+DROP PROCEDURE uspInsertOrderItem
+DROP PROCEDURE uspCurrentOrder
+DROP PROCEDURE uspGetMostRecentOrderIDForCustomer
+DROP PROCEDURE uspSelectOneOrder
+DROP PROCEDURE uspGetCustomerOrders
+DROP PROCEDURE uspGetAllOrders
+DROP PROCEDURE uspGetOrderItems

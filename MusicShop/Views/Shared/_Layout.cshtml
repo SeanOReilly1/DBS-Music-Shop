@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Music Shop App</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="~/Content/JavaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+<body onload="read()">
+    @RenderSection("logged", false)
+   
+    <div class="container">
+        <img src="~/Content/Images/guitar.jpg" title="main image" alt="main image picture">
+        <div class="centered">@Html.ActionLink("Sign In", "Index", "Customer")</div>
+    </div>
+    <div class="navbar">
+        @Html.ActionLink("Home", "Index", "Home")
+        @Html.ActionLink("Guitars", "Index", "Guitar")
+        @Html.ActionLink("Amps", "Amps", "Guitar")
+        @Html.ActionLink("About Us", "Index", "About")
+        @Html.ActionLink("Empty Cart", "Cart", "Order", null, new { id = "cartQty" })
+        <div class="topnav-right">
+            @Html.ActionLink("Account", "Index", "Customer")
+        </div>
+    </div>
+
+    <div id="logins">
+
+        @if (Session != null && Session["userType"] != null && Session["userType"].ToString() == "staff")
+        {
+            <span class="right">
+                @Html.ActionLink("Home", "Index", "Admin") -
+                @Html.ActionLink("Logout", "Logout", "Admin")
+            </span>
+        }
+
+        else if (Session != null && Session["userType"] != null && Session["userType"].ToString() == "customer")
+        {
+            <span class="right">
+                @Html.ActionLink("Home", "Index", "Customer") -
+                @Html.ActionLink("Logout", "Logout", "Customer")
+            </span>
+
+
+        }
+
+    </div>
+
+    <br />
+    <br>
+
+    <div class="wrapper">
+
+        <main>
+            @RenderBody()
+          
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h4> Check out our social media feeds</h4>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank"><img src="~/Content/Images/facebook.png" /> </a>
+                <a href="https://twitter.com" target="_blank"><img src="~/Content/Images/twitter.png" /> </a>
+                </div>
+                <br />
+
+                Contact information: <a href="mailto:musicshop@gmail.com">musicshop@gmail.com</a>
+                &copy; @DateTime.Now.Year - Music Shop
+            </div>
+            <br />
+
+</footer>
+</body>
+</html>

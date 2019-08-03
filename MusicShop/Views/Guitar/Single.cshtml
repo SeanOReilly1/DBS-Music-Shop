@@ -1,0 +1,62 @@
+﻿@model MusicShop.Models.Guitar
+@{
+    ViewBag.Title = "Single";
+}
+
+<h2>Single</h2>
+
+@if (Model == null)
+{
+    <h3>No items matching thos credentials</h3>
+}
+
+else
+{
+   
+        <div class="singleItemDisp">
+            <div class="singleItemDetails">
+                <a href="~/Guitar/ShowOne/@Model.ID">
+                    <img class="listPoster" alt="Item Poster - @Model.Name"
+                         src="@Url.Content(Model.Image)" />
+                    <h3> <span class="itemListTitle">@Model.Name</span> </h3>
+
+                </a>
+
+                <form id="frmAddItemToCart">
+                    @Html.Label("lblAmmount" + Model.ID, "Quantity:")
+                    @Html.TextBox("txtAmmount" + Model.ID, "1", new { @class = "textbox", type = "number" })
+                    <input id="add_@Model" type="button" onclick='addToCart("@Model.ID")' value="Add to Cart" />
+                </form>
+                <span class="price">€@Model.Price</span>
+                @if (Model.Stock > 0)
+                {
+                    <span class="haveStock">
+                        In Stock
+                    </span>
+                }
+                else
+                {
+                    <span class="noStock">
+                        Out of Stock
+                    </span>
+                }
+            </div>
+            @if (Session["userType"] != null && Session["userType"].ToString() == "staff")
+            {
+                <div class="AdminRights">
+                    @using (Html.BeginForm("Delete", "Guitar", new { ID = Model.ID }))
+                    {
+                        <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete this record?')" />
+                    }
+                    @using (Html.BeginForm("Edit", "Guitar", new { ID = Model.ID }, FormMethod.Get))
+                    {
+                        <input type="submit" value="Edit" />
+                    }
+                </div>
+            }
+        </div>
+
+    }
+
+
+

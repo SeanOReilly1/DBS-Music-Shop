@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Add and save images</h2>
+
+@using (Html.BeginForm("Index", "Image", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="file">
+    <input type="submit" value="Insert Images">
+
+}
+
